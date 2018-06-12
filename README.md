@@ -28,10 +28,12 @@ STILL      : 디바이스가 움직이지 않고 한 곳에 머물러 있습니�
 <sup>[2]</sup>[Activity Recognition Transition API](https://codelabs.developers.google.com/codelabs/activity-recognition-transition/#0) 클릭
 
 ## [사용 후기]
-현재 테스트 앱을 제작하였습니다.
+현재 테스트 앱을 제작하였습니다. (아래 화면 참조)
+
+<img src="./res/Screenshot_20180612-185502.png" width="200">
+<img src="./res/Screenshot_20180612-185529.png" width="200">
 
 인식률에 대해 테스트 후 업데이트 하도록 하겠습니다.
-
 
 ## [참조 문서]
 
