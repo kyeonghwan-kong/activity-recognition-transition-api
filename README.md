@@ -15,7 +15,6 @@ Google의 Activity Recognition Transition API를 소개합니다.
 2. 엄밀히 말하면 핸드폰(디바이스)의 활동 상태라고 할 수 있다.
 3. 사용자가 핸드폰과 같이 있다는 전제하에 사용자의 활동 상태를 인식한다.
 
-</br>
 <sup>[1]</sup>[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)에 따르면 사용자의 활동 상태를 6가지로 분류시켜 앱에 알릴 수 있습니다. 
 
 ```
@@ -64,6 +63,7 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 	...
 </manifest>
 ```
+
 </br>
 
 - app module level 에서 `build.gradle`에 dependencies를 설정한다.
@@ -75,6 +75,7 @@ dependencies {
     ...
 }
 ```
+
 </br>
 
 - `List<ActivityTransition>` 를 생성한다.
@@ -102,6 +103,7 @@ dependencies {
                         .setActivityTransition(ActivityTransition.ACTIVITY_TRANSITION_EXIT)
                         .build()) // 다른 곳으로 이동하기 시작하면 이벤트 발생
 ```
+
 </br>
 
 - BroadcastReiceiver.onReceive() 구현
@@ -121,6 +123,7 @@ dependencies {
         }
     }
 ```
+
 </br>
 
 - PendingIntent 생성 후 BroadcastReiceiver 등록
@@ -142,6 +145,7 @@ dependencies {
 						...
                 }
 ```
+
 </br>
 
 - 자세한 내용은 [MainActivity.kt](.app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고. 
