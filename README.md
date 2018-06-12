@@ -52,7 +52,7 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 ## [구현 시 참고사항]
 
 
-- `AndroidManifest.xml`에 권한설정을 한다.
+- __`AndroidManifest.xml`에 권한설정을 한다.__
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,7 +66,7 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 
 </br>
 
-- app module level 에서 `build.gradle`에 dependencies를 설정한다.
+- __app module level 에서 `build.gradle`에 dependencies를 설정한다.__
 
 ```
 dependencies {
@@ -78,7 +78,7 @@ dependencies {
 
 </br>
 
-- `List<ActivityTransition>` 를 생성한다.
+- __`List<ActivityTransition>` 를 생성한다.__
 
 ```
      var transitions : MutableList<ActivityTransition> = mutableListOf<ActivityTransition>()
@@ -106,7 +106,7 @@ dependencies {
 
 </br>
 
-- BroadcastReiceiver.onReceive() 구현
+- __BroadcastReiceiver.onReceive() 구현__
 
 ```
     inner class TransitionsReceiver : BroadcastReceiver() {
@@ -126,7 +126,7 @@ dependencies {
 
 </br>
 
-- PendingIntent 생성 후 BroadcastReiceiver 등록
+- __PendingIntent 생성 후 BroadcastReiceiver 등록__
 
 ```
                 var intent = Intent(TRANSITIONS_RECEIVER_ACTION)
@@ -148,7 +148,7 @@ dependencies {
 
 </br>
 
-- 자세한 내용은 [MainActivity.kt](.app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고. 
+- __자세한 내용은 [MainActivity.kt](.app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고.__
 
 </br>
 
