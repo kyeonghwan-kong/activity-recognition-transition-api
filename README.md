@@ -65,6 +65,7 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 </manifest>
 ```
 </br>
+
 - app module level 에서 `build.gradle`에 dependencies를 설정한다.
 
 ```
@@ -75,6 +76,7 @@ dependencies {
 }
 ```
 </br>
+
 - `List<ActivityTransition>` 를 생성한다.
 
 ```
