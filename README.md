@@ -11,12 +11,12 @@ Google의 **Activity Recognition Transition API**를 통해 새로운 기능을 
 <sup>[1]</sup>[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)에 따르면 사용자의 활동 상태를 6가지로 분류시켜 앱에 알릴 수 있습니다. 
 
 ```
-IN_VEHICLE : 디바이스가 차량을 이용하는 사용자와 같이 있는지 알 수 있습니다.
-ON_BICYCLE : 디바이스가 자전거를 이용하는 사용자와 같이 있는지 알 수 있습니다.
-ON_FOOT    : 디바이스가 사용자와 같이 있는지 알 수 있습니다.
-RUNNING    : 디바이스가 뛰고 있는 사용자와 같이 있는지 알 수 있습니다. 
-WALKING    : 디바이스가 걷고 있는 사용자와 같이 있는지 알 수 있습니다.
-STILL      : 디바이스가 움직이지 않고 한 곳에 머물러 있습니다.
+IN_VEHICLE : 디바이스(사용자)가 차량을 이용하는 중이다.
+ON_BICYCLE : 디바이스(사용자)가 자전거를 이용하는 중이다.
+ON_FOOT    : 디바이스가 사용자와 같은 곳에 있다.
+RUNNING    : 디바이스(사용자)가 뛰고 있다.
+WALKING    : 디바이스(사용자)가 걷고 있다.
+STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 ```
 
 ## [개발 배경]
