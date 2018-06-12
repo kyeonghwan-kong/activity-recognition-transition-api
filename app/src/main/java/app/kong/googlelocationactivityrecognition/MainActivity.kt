@@ -156,6 +156,11 @@ class MainActivity : AppCompatActivity() {
         when (activity) {
             DetectedActivity.STILL -> return "STILL"
             DetectedActivity.WALKING -> return "WALKING"
+            DetectedActivity.ON_BICYCLE -> return "ON_BICYCLE"
+            DetectedActivity.IN_VEHICLE -> return "IN_VEHICLE"
+            DetectedActivity.RUNNING -> return "RUNNING"
+            DetectedActivity.ON_FOOT -> return "ON_FOOT"
+            DetectedActivity.TILTING -> return "TILTING"
             else -> return "UNKNOWN"
         }
     }
