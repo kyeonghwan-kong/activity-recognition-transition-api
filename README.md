@@ -148,7 +148,7 @@ dependencies {
 
 </br>
 
-- __자세한 내용은 [MainActivity.kt](.app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고.__
+- __자세한 내용은 [MainActivity.kt](https://github.com/socar-kong/activity-recognition-transition/blob/master/app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고.__
 
 </br>
 
