@@ -15,7 +15,7 @@ Google의 Activity Recognition Transition API를 소개합니다.
 2. 엄밀히 말하면 핸드폰(디바이스)의 활동 상태라고 할 수 있다.
 3. 사용자가 핸드폰과 같이 있다는 전제하에 사용자의 활동 상태를 인식한다.
 
-<sup>[1]</sup>[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)에 따르면 사용자의 활동 상태를 6가지로 분류시켜 앱에 알릴 수 있습니다. 
+<sup>[1]</sup>[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)에 따르면 사용자의 활동 상태를 8가지로 분류시켜 앱에 알릴 수 있습니다. 
 
 ```
 IN_VEHICLE : 디바이스(사용자)가 차량을 이용하는 중이다.
@@ -24,7 +24,11 @@ ON_FOOT    : 디바이스가 사용자와 같은 곳에 있다.
 RUNNING    : 디바이스(사용자)가 뛰고 있다.
 WALKING    : 디바이스(사용자)가 걷고 있다.
 STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
+TINTING    : 중력과 관련된 디바이스 각도가 크게 변화했다.
+UNKNOWN     : 알 수 없는 상태다.
 ```
+
+참고. TINTING, UNKNOWN 은 개발자가 이벤트를 설정할 수 없다. 
 
 </br>
 
