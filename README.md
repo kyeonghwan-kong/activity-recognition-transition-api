@@ -8,7 +8,7 @@ Google의 **Activity Recognition Transition API**를 통해 새로운 기능을 
 ## [Activity Recognition Transition API 란?]
 사용자의 활동 상태를 인식해주는 API입니다. 엄밀히 말하면 핸드폰(디바이스)의 활동 상태라고 할 수 있습니다. 사용자가 핸드폰과 같이 있다는 전제하에 사용자의 활동 상태를 인식한다는 것입니다.
 
-<sup>[1]</sup>**[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)**에 따르면 사용자의 활동 상태를 6가지로 분류시켜 앱에 알릴 수 있습니다. 
+<sup>[1]</sup>[이 곳](https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity)에 따르면 사용자의 활동 상태를 6가지로 분류시켜 앱에 알릴 수 있습니다. 
 
 ```
 IN_VEHICLE : 디바이스가 차량을 이용하는 사용자와 같이 있는지 알 수 있습니다.
@@ -25,7 +25,7 @@ STILL      : 디바이스가 움직이지 않고 한 곳에 머물러 있습니�
 구글은 이러한 이유로 모든 처리를 간단하게 할 수 있는 API 제공하기 시작했습니다.
 
 ## [구현 하기]
-<sup>[2]</sup>**[Activity Recognition Transition API](https://codelabs.developers.google.com/codelabs/activity-recognition-transition/#0)** 클릭
+<sup>[2]</sup>[Activity Recognition Transition API](https://codelabs.developers.google.com/codelabs/activity-recognition-transition/#0) 클릭
 
 ## [사용 후기]
 현재 테스트 앱을 제작하였습니다.
