@@ -8,6 +8,7 @@
 Google의 Activity Recognition Transition API를 소개합니다.
 
 </br>
+
 ## [Activity Recognition Transition API 란?]
 
 1. 사용자의 활동 상태를 인식해주는 API다. 
@@ -27,6 +28,7 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 ```
 
 </br>
+
 ## [개발 배경]
 
 1. 기존에 유사한 기능을 구현하기 위해 개발자는 사용자의 위치, 센서 데이터와 같은 다양한 신호를 결합하는데 기회비용이 컸다.
@@ -34,17 +36,20 @@ STILL      : 디바이스(사용자)가 움직이지 않고 머물고 있다.
 3. 구글은 이러한 이유로 모든 처리를 간단하게 할 수 있는 API 제공하기 시작했다.
 
 </br>
+
 ## [사전 요구사항]
 
 - Android API Level > v14
 - Android Build Tools > v21
 
 </br>
+
 ## [구현 하기]
 
 <sup>[2]</sup>[Activity Recognition Transition API](https://codelabs.developers.google.com/codelabs/activity-recognition-transition/#0) 클릭
 
 </br>
+
 ## [구현 시 참고사항]
 
 
@@ -140,7 +145,7 @@ dependencies {
 - 자세한 내용은 [MainActivity.kt](.app/src/main/java/app/kong/googlelocationactivityrecognition/MainActivity.kt) 를 참고. 
 
 </br>
-</br>
+
 ## [사용 후기]
 
 현재 테스트 앱을 제작하였습니다. (아래 화면 참조)
@@ -150,6 +155,7 @@ dependencies {
 <img src="./res/Screenshot_20180612-185529.png" width="200">
 
 </br>
+
 ## [참조 문서]
 
 
