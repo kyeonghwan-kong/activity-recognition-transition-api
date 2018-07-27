@@ -1,8 +1,4 @@
 # activity-recognition-transition
-
-
-<img src="./res/Jetpack_logo.png" width="200">
-
 이제부터 안드로이드에서 사용자가 어떤 활동을 하고 있는지 쉽게 알 수 있습니다.
 
 Google의 Activity Recognition Transition API를 소개합니다.
